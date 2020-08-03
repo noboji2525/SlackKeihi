@@ -7,6 +7,7 @@ public class MainControler {
 		Temp temp = new Temp();
 		temp.setName("まめたろう");
 		System.out.println(temp.getName());
+		System.out.println("まめです");
 
 	}
 

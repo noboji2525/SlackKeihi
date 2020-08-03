@@ -4,7 +4,9 @@ public class Temp {
 	private String name;
 	private int temple;
 	private boolean control;
+	Temp(){
 
+	}
 
 	public String getName() {
 		return name;
