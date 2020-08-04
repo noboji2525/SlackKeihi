@@ -1,30 +1,14 @@
 package com.kousuke.cat;
 
+import javax.swing.JFrame;
+
 public class Temp {
-	private String name;
-	private int temple;
-	private boolean control;
 	Temp(){
-
+		JFrame frame = new JFrame("猫遊び");
+		frame.setSize(300, 300);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getTemple() {
-		return temple;
-	}
-	public void setTemple(int temple) {
-		this.temple = temple;
-	}
-	public boolean isControl() {
-		return control;
-	}
-	public void setControl(boolean control) {
-		this.control = control;
-	}
 
 }
